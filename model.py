@@ -1,5 +1,5 @@
-key = "718c0d6938a84500abc1f635dfe64181"
-endpoint = "https://survey-text-mining.cognitiveservices.azure.com/"
+key = "****"
+endpoint = "****"
 
 from azure.ai.textanalytics import TextAnalyticsClient
 from azure.core.credentials import AzureKeyCredential
