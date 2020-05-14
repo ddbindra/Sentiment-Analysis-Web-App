@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secret Diary</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ url_for('static',filename='styles.css') }}">
+</head>
+<body>
+  <div class="heading">
+    <h1>Hello! I'm your secret diary...</h1>
+  </div>
+  <!--<div class="image">
+    <img src="/static/aigaming_w.png" alt="aigaming_logo">
+  </div> -->
+  <div class="enter">
+  <form method="POST" action="">
+    <!-- <input type="text" placeholder="How are u feeling" name="email" /> -->
+    <textarea rows = "8" cols = "60" name = "email" placeholder="How are u feeling">
+            
+    </textarea><br>
+    <input type="submit" style="background-color:white;color:black" value="Submit">
+
+    <!-- <input type="submit" value=" OK "  class='btn' /> -->
+    <!-- <input type="submit"> -->
+  </form>
+  </div>
+</body>
+</html>
