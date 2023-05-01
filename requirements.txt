@@ -1,4 +1,4 @@
 click==6.7
-Flask==1.0.2
+Flask==2.3.2
 MarkupSafe==1.0
 azure-ai-textanalytics
